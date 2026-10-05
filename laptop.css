@@ -1,0 +1,60 @@
+@charset "UTF-8";
+body{
+    background-color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin:0px;
+    color: #222222;
+
+}
+#wrapper{
+    width: 90%;
+    max-width: 1000px;
+    margin: 0 auto;
+
+}
+
+/*Linear Gradient*/
+
+header{
+    background: linear-gradient(#264653, #2a9d8f);
+    text-align:center;
+}
+
+nav a{
+    display: inline-block;
+    padding: 15px 20px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/*Angular Gradient*/
+#banner{
+    background: linear-gradient(135deg, #e9c46a, #f4a261);
+    padding:100px;
+    text-align:center;
+}
+#banner img{
+    width: 200px;
+    height: 200px;
+    object-fit:cover;
+    display: block;
+    margin: 0 auto;
+}
+
+footer{
+    background-color:#264653;
+    color:#ffffff;
+    text-align: center;
+    padding: 50px;
+}
+
+footer a{
+    color: #2a9d8f;
+}
+
+img, video{
+    max-width: 10%;
+    height:auto;
+}
+
+
