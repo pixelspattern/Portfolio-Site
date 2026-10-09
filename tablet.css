@@ -1,14 +1,15 @@
 @charset "UTF-8";
 body{
-    background-color: black;
+    background-color: #3b789C;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin:0px;
-    color: #f1ecec;
+    color: #222222;
 
 }
 #wrapper{
     width: 90%;
-    max-width: 800px;
+    max-width: 960px;
+    min-width:481px;
     margin: 0 auto;
 
 }
@@ -16,7 +17,7 @@ body{
 /*Linear gradient*/
 
 header{
-    background: linear-gradient(#264653, #2a9d8f);
+    background: linear-gradient(#3b789c,#2a9d8f);
     text-align:center;
 }
 
@@ -30,19 +31,19 @@ nav a{
 /*Angled gradient*/
 #banner{
     background: linear-gradient(135deg, #e9c46a, #f4a261);
-    padding:30px;
+    padding:10px;
     text-align:center;
 }
 
 footer{
-    background-color:#264653;
+    background-color:#FF4D4C;
     color:#ffffff;
     text-align: center;
-    padding: 20px;
+    padding: 40px;
 }
 
 footer a{
-    color: #2a9d8f;
+    color: #ffffff;
 }
 
 img, video{
