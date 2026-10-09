@@ -1,14 +1,17 @@
 @charset "UTF-8";
 body{
-    background-color: black;
+    background-color: #3b789C;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin:0px;
     color: #222222;
-
 }
+main{
+    min-height:72vh;
+   } 
+
 #wrapper{
-    width: 90%;
-    max-width: 1000px;
+    width: 80%;
+    max-width: 1400px;
     margin: 0 auto;
 
 }
@@ -16,7 +19,7 @@ body{
 /*Linear Gradient*/
 
 header{
-    background: linear-gradient(#264653, #2a9d8f);
+    background-color: linear-gradient(#3b789c,#2a9d8f);
     text-align:center;
 }
 
@@ -42,19 +45,21 @@ nav a{
 }
 
 footer{
-    background-color:#264653;
+    background-color:#FF4D4C;
     color:#ffffff;
     text-align: center;
-    padding: 50px;
+    padding: 30px;
 }
 
 footer a{
-    color: #2a9d8f;
+    color: #ffffff;
 }
 
 img, video{
-    max-width: 10%;
-    height:auto;
+    width: 100%;
+    max-width: 500px;
+    display: block;
+    margin: 20px auto 0 auto
 }
 
 
