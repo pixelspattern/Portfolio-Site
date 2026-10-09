@@ -4,35 +4,47 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title> My Projects</title>
-    <link rel="stylesheet" href="css/laptop.css">
-    <link rel="stylesheet" href="css/tablet.css">
-    <link rel="stylesheet" href="css/mobile.css">
+    <link rel="stylesheet" href="css/laptop.css" media="(min-width:961px)">
+    <link rel="stylesheet" href="css/tablet.css" media="(min-width:481px) and (max-width:960px)">
+    <link rel="stylesheet" href="css/mobile.css" media="(max-width: 480px)">
 </head>
 <body>
-    <div id ="wrapper">
-        <div id ="banner">
-            <h1> Projects </h1>
-
-            <h2> Python Quiz game</h2>
-            <p> I built my own quiz game in python using python to ask a player questions and rank players based on how many answers they got correct</p>
-            <h2> Network plan </h2>
-            <p> I built my own network plan for a home netowrk including routing between computers and ip configuration</p>
-            <h2> ERP Sim Sustainability report  </h2>
-            <p> Made a report detailing the ERPsim game which is an competive business simulation run on SAP where teams manage a muesli manufacturing company </p>
-            <h2> ERP Sim data analysis</h2>
-            <p>Made a data analysis of my ERPsim manufacuturing game detailing what our most selling products where and how we could improve our business model</p>
-        </div>
-    </div>
-<footer>
-    <nav>
+    <header>
+        <nav>
         <a href="index.html">Home</a>
         <a href="about.html">About Me</a>
         <a href="projects.html">Projects</a>
         <a href="contact.html">Contact Me</a>
     </nav>
-</footer>
+    </header>
+
+    <main>
+        <div id ="wrapper">
+            <div id ="banner">
+                <h1> Projects </h1>
+
+                <article>
+                    <p>Python Quiz game</p>
+                    <p> I built a quiz game in python similiar to jeaporday where users choose a topic and are asked questions and if they get the correct answer the get points and a highscore.</p>
+                </article>
+                <article>
+                    <p> Network plan</p>
+                    <p> In cisco packet tracer I made a network plan for a few buildings where computers where interconnected and had to be successfully routed </p>
+                </article>
+                <article>
+                    <p> ERP Sim Data Analysis</p>
+                    <p> Using Tableau i made a data analysis and report of the my teams company earnings and business statistics. This gave my team valuable insights in how we performed.</p>
+                </article>
+                
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p> Email: <a href="mailto:matthew.kiprenko@ontariotechu.net">matthew.kiprenko@ontariotechu.net</a> </p>
+        <p>&copy; 2026 Matthew Kiprenko</p>
+    </footer>
 
 </body>
-
 </html>
  
