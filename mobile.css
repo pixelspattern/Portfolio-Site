@@ -1,14 +1,14 @@
 @charset "UTF-8";
 body{
-    background-color: black;
+    background-color: #3b789C;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin:0px;
-    color: #f1ecec;
+    color: #222222;
 
 }
 #wrapper{
     width: 96%;
-    min-width: 300px;
+    max-width: 480px;
     margin: 0 auto;
 
 }
@@ -16,7 +16,7 @@ body{
 /*Linear gradient*/
 
 header{
-    background: linear-gradient(#264653, #2a9d8f);
+    background: linear-gradient(#3b789c,#2a9d8f);
     text-align:center;
 }
 
@@ -35,14 +35,14 @@ nav a{
 }
 
 footer{
-    background-color:#264653;
+    background-color:#FF4D4C;
     color:#ffffff;
     text-align: center;
     padding: 20px;
 }
 
 footer a{
-    color: #2a9d8f;
+    color: #ffffff;
 }
 
 img, video{
